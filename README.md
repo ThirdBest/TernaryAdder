@@ -18,3 +18,6 @@ A: Lookahead in the emulator is seperate from the class of the ternary adder its
 
 Q: What language and source control are you using to build the emulator?
 A: C++ with Visual Studio.
+
+Q: What's with using NOR and NAND gates instead of just OR and AND?
+A: In binary, the NOR and NAND operations have a unique property that allows them to form any other logic gate (including each other) using a certain combination of themselves. While that property may not exist in my ternary model, the versatility of NAND and NOR proved useful while constructing the adder.
