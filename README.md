@@ -25,5 +25,8 @@ A: In binary, the NOR and NAND operations have a unique property that allows the
 Q: What is your expected outcome?<br>
 A: I believe that binary will prove to be faster than ternary when dealing with smaller numbers. As numbers grow, however, the binary adder must process much more data than the ternary adder. For example:<br>
 
-An addition of 2,000,000,000 + 2,000,000,000 in binary (a little under the max value for an unsigned int) is 11101110011010110010100000000000. The binary adder must run 32 times for this equation. In ternary, however, those numbers add up to 
-101022202201001110011. That's an entire 11 digits less than binary! Now imagine both adders making this addition 1,000,000+ times. Would the ternary adder at some point surpass the binary adder?
+An addition of 2,000,000,000 + 2,000,000,000 in binary (a little under the max value for an unsigned int) is: 
+
+1110 1110 0110 1011 0010 1000 0000 0000. The binary adder must run 32 times for this equation. In ternary, however, those numbers add up to:
+
+101 022 202 201 001 110 011. That's an entire 11 digits less than binary! Now imagine both adders making this addition 1,000,000+ times. Would the ternary adder at some point surpass the binary adder?
