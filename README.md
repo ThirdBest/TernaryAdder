@@ -1,5 +1,7 @@
 # TernaryAdder
 
+There are 10 kinds of people: those who understand ternary, those who don't, and those who are uncertain.
+
 Q & A for those wishing to learn about the scope of this project:
 
 Q: Why are you doing this?
